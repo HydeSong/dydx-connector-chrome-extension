@@ -17,7 +17,7 @@
 }
 
 .padding-x {
-  @apply sm: px-16 px-6;
+  @apply sm:px-4 px-4;
 }
 
 .padding-y {
@@ -35,5 +35,4 @@
 .custom-btn {
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
 }
-
 /* END: General styles */
