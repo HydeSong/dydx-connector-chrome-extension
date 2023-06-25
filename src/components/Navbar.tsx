@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import MyButton from "./MyButton"
 
-const Navbar = () => {
+const Navbar = ({start}) => {
     return (
         <header className="w-full fixed top-0" style={{backgroundColor: "#1c1c28"}}>
             <nav
@@ -11,7 +11,8 @@ const Navbar = () => {
                 <MyButton
                     title="Start Grid Trading"
                     btnType="button"
-                    containerStyle="bg-primary-blue text-white rounded-full"/>
+                    containerStyle="bg-primary-blue text-white rounded-full"
+                    handleClick={() => start()}/>
             </nav>
         </header>
     )
