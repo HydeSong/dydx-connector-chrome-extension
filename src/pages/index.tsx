@@ -1,6 +1,6 @@
-import { Main } from "~components/main"
+import Main from "~components/Main"
 
-function IndexPage() {
+const IndexPage = () => {
   return <Main name="App" />
 }
 

@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { footerLinks } from "~constants"
 
-export function Main({ name = "Extension" }) {
+const Main = ({ name = "Extension" }) => {
   return (
     <div
       style={{
@@ -16,3 +16,5 @@ export function Main({ name = "Extension" }) {
     </div>
   )
 }
+
+export default Main
