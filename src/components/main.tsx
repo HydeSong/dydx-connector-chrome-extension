@@ -6,7 +6,7 @@ export function Main({ name = "Extension" }) {
     <div
       style={{
         display: "flex",
-        flexDirection: "column",
+        flexDirection: "column", 
         padding: 16
       }}>
       <h1>
