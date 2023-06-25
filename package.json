@@ -1,6 +1,6 @@
 {
   "name": "dydx-connector-chrome-extension",
-  "displayName": "Dydx connector chrome extension",
+  "displayName": "Dydx connector",
   "version": "0.0.1",
   "description": "A dydx connector, grid trading bot",
   "author": "hyde.song@icloud.com",

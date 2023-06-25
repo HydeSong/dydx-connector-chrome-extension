@@ -1,8 +1,6 @@
 import { useState } from "react"
 
 export function Main({ name = "Extension" }) {
-  const [data, setData] = useState("")
-
   return (
     <div
       style={{
@@ -11,9 +9,8 @@ export function Main({ name = "Extension" }) {
         padding: 16
       }}>
       <h1>
-        Welcome to your <a href="https://www.plasmo.com">Plasmo</a> {name}!
+        Dydx connector
       </h1>
-      <input onChange={(e) => setData(e.target.value)} value={data} />
     </div>
   )
 }
