@@ -1,9 +1,8 @@
-import Test from "~components/Test"
-
 import "../style.css"
+import Main from "~components/Main"
 
-function IndexPopup() {
-  return (<Test/>)
+const IndexPopup = () => {
+  return <Main/>
 }
 
 export default IndexPopup
